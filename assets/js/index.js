@@ -9,6 +9,7 @@
         },
         autoplay: {
             delay: 5000,
+            disableOnInteraction: false,
         },
     });
 
@@ -214,7 +215,7 @@ $(window).scroll(function(){
             $('.header .group-menu2').slideDown();
         }
     } else {
-        $('.header .group-menu2').slideDown();
+        // $('.header .group-menu2').slideDown();
     }
     lastScroll = curr;
 })

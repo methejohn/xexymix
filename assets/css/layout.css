@@ -518,8 +518,8 @@
 .group-hamburger .menu-area .item-list{
     margin-top: 10px;
     background: #f8f8f8;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
     padding: 0 30px;
     display: none;
 }
